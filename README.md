@@ -5,3 +5,5 @@ Tunnel Traffic is a time series describing the number of vehicles traveling thro
 1. Goal/Objective and Business Understanding: 
 2. Data Understanding: 
 3. Exploratory Data Analysis (EDA): 
+4. Data preprocessing:
+5. Model Development: 
