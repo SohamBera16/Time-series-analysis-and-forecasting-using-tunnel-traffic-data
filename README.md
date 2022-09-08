@@ -3,3 +3,4 @@ Tunnel Traffic is a time series describing the number of vehicles traveling thro
 
 ## Steps of the project:
 1. Goal/Objective and Business Understanding: 
+2. Data Understanding: 
