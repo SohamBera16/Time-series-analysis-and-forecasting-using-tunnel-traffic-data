@@ -7,3 +7,4 @@ Tunnel Traffic is a time series describing the number of vehicles traveling thro
 3. Exploratory Data Analysis (EDA): 
 4. Data preprocessing:
 5. Model Development: 
+6. Model Evaluation: 
