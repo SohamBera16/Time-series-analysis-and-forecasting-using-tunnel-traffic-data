@@ -6,7 +6,9 @@ Tunnel Traffic is a time series describing the number of vehicles traveling thro
 
 2. Data Understanding: 
 3. Exploratory Data Analysis (EDA): 
-4. Data preprocessing: In order to facilitate time series analysis, Pandas package has been used to transform the dataset accordingly. 
+4. Data preprocessing: In order to facilitate time series analysis, Pandas package has been used to transform the dataset accordingly. By setting the index to a date
+column. We parsed "Day" as a date type by using `parse_dates` when
+# loading the data. 
 5. Model Development: 
 6. Model Evaluation: 
 7. Results:
