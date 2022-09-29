@@ -6,7 +6,7 @@ Tunnel Traffic is a time series describing the number of vehicles traveling thro
 
 2. Data Understanding: 
 3. Exploratory Data Analysis (EDA): 
-4. Data preprocessing: Create a time se
+4. Data preprocessing: Create a time series in Pandas
 5. Model Development: 
 6. Model Evaluation: 
 7. Results:
