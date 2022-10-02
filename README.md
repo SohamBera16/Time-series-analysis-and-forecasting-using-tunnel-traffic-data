@@ -27,4 +27,4 @@ After incorporating the lag features into the dataset, the predictions of the li
 ![seasonal forecast](https://github.com/SohamBera16/Time-series-analysis-and-forecasting-using-tunnel-traffic-data/blob/main/tunnel%20traffic%20seasonal%20forecast.png)
 
 ### 9. Result Interpretation:
-The trend discovered by our LinearRegression model is almost identical to the moving average plot, which suggests that a linear trend was the right decision in this case.
+The trend discovered by our LinearRegression model is almost identical to the moving average plot, which suggests that a linear trend was the right decision in this case. Also, whereas the model does predict the trend with certain degree of correctness, the predictions start to deviate from the linear trend with the progression of time. (e.g. starting around the year 2006) Hence, testing more sophisticated models for forecasting would be the next step for the project.  
