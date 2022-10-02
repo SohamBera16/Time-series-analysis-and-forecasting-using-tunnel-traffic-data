@@ -20,7 +20,7 @@ We'll create our seasonal features using DeterministicProcess and to use two sea
 Linear regression has been used as the modeling algorithm for fitting the data and making predictions on "out of sample" data. "Out of sample" refers to times outside of the observation period of the training data. The model actually created is (approximately) is Vehicles = 22.5 * Time + 98176. Plotting the fitted values over time shows us how fitting linear regression to the time dummy creates the trend line defined by this equation.
 
 ### 6. Analysis: 
-Let's make a moving average plot to see what kind of trend this series has. Since this series has daily observations, let's choose a window of 365 days to smooth over any short-term changes within the year. To create a moving average, first use the rolling method to begin a windowed computation. Follow this by the mean method to compute the average over the window. As we can see, the trend of Tunnel Traffic appears to be about linear.
+A moving average plot has been generated to see what kind of trend this series has. Since this series has daily observations, a window of 365 days has been chosen to smooth over any short-term changes within the year. To create a moving average, the rolling method has been used first to begin a windowed computation. It was followed by the mean method to compute the average over the window. As we can see, the trend of Tunnel Traffic appears to be about linear.
 
 ### 8. Results:
 
