@@ -13,11 +13,13 @@ We create lag features for understanding the relationship between number of vehi
 ### 4. Data preprocessing: 
 In order to facilitate time series analysis, Pandas package has been used to transform the dataset accordingly. By setting the index to a date column, the "Day" column has been parsed as a date type by using `parse_dates` when loading the data. Moreover, a time dummy/time step feature has been created for generating lag features from the same by counting out the length of the series. 
 In order to engineer time dummy features, a function from the statsmodels library called DeterministicProcess has also been used which can help to avoid some tricky failure cases that can arise with time series and linear regression. The order argument refers to polynomial order: 1 for linear, 2 for quadratic, 3 for cubic, and so on.
+The periodogram agrees with the seasonal plots above: a strong weekly season and a weaker annual season. The weekly season we'll model with indicators and the annual season with Fourier features. From right to left, the periodogram falls off between Bimonthly (6) and Monthly (12), so 10 Fourier pairs have been used.
+We'll create our seasonal features using DeterministicProcess and to use two seasonal periods (weekly and annual), we instantiate one of them as an "additional term".
 
 ### 5. Model Development: 
 Linear regression has been used as the modeling algorithm for fitting the data and making predictions on "out of sample" data. "Out of sample" refers to times outside of the observation period of the training data. The model actually created is (approximately) is Vehicles = 22.5 * Time + 98176. Plotting the fitted values over time shows us how fitting linear regression to the time dummy creates the trend line defined by this equation.
 
-### 6. Model Improvement: 
+### 6. Analysis: 
 Let's make a moving average plot to see what kind of trend this series has. Since this series has daily observations, let's choose a window of 365 days to smooth over any short-term changes within the year. To create a moving average, first use the rolling method to begin a windowed computation. Follow this by the mean method to compute the average over the window. As we can see, the trend of Tunnel Traffic appears to be about linear.
 
 ### 8. Results:
