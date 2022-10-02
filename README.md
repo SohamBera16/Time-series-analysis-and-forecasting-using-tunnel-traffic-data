@@ -23,7 +23,10 @@ Linear regression has been used as the modeling algorithm for fitting the data a
 A moving average plot has been generated to see what kind of trend this series has. Since this series has daily observations, a window of 365 days has been chosen to smooth over any short-term changes within the year. To create a moving average, the rolling method has been used first to begin a windowed computation. It was followed by the mean method to compute the average over the window. As we can see, the trend of Tunnel Traffic appears to be about linear.
 
 For analysing the presence of seasonality in the dataset, the seasonal plots based on weeks and years have been created. 
+The seasonal plot based on days of a certain week looks as follows - 
 ![seasonal plot week](https://github.com/SohamBera16/Time-series-analysis-and-forecasting-using-tunnel-traffic-data/blob/main/seasonal%20plot%20daywise.png)
+
+Whereas, the seasonal plot based on the yearly changes looks as below -
 ![seasonal plot year](https://github.com/SohamBera16/Time-series-analysis-and-forecasting-using-tunnel-traffic-data/blob/main/seasonal%20plot%20dayofyearwise.png)
 
 Also, plot periodogram has been used to identify the dominant periods or frequencies in the time series. 
