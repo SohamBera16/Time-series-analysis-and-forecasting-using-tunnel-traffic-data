@@ -23,6 +23,8 @@ Linear regression has been used as the modeling algorithm for fitting the data a
 A moving average plot has been generated to see what kind of trend this series has. Since this series has daily observations, a window of 365 days has been chosen to smooth over any short-term changes within the year. To create a moving average, the rolling method has been used first to begin a windowed computation. It was followed by the mean method to compute the average over the window. As we can see, the trend of Tunnel Traffic appears to be about linear.
 
 ### 8. Results:
+After incorporating the lag features into the dataset, the predictions of the linear regression model for data that are outside the available dataset can be shown as follows - 
+
 
 ### 9. Result Interpretation:
 The trend discovered by our LinearRegression model is almost identical to the moving average plot, which suggests that a linear trend was the right decision in this case.
