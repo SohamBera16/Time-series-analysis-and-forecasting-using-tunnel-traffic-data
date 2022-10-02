@@ -24,7 +24,7 @@ A moving average plot has been generated to see what kind of trend this series h
 
 ### 8. Results:
 After incorporating the lag features into the dataset, the predictions of the linear regression model for data that are outside the available dataset can be shown as follows - 
-
+![seasonal forecast](https://github.com/SohamBera16/Time-series-analysis-and-forecasting-using-tunnel-traffic-data/blob/main/tunnel%20traffic%20seasonal%20forecast.png)
 
 ### 9. Result Interpretation:
 The trend discovered by our LinearRegression model is almost identical to the moving average plot, which suggests that a linear trend was the right decision in this case.
