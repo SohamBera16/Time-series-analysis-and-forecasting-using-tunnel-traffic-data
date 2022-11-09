@@ -2,7 +2,7 @@
 
 ## Steps of the project:
  ### 1. Goal/Objective:
-Tunnel Traffic is a time series 
+Tunnel Traffic is a time series describing the number of vehicles 
 
 
 ### 2. Data Understanding: 
