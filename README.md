@@ -2,7 +2,7 @@
 
 ## Steps of the project:
  ### 1. Goal/Objective:
-Tunnel Traffic 
+Tunnel Traffic is a time series 
 
 
 ### 2. Data Understanding: 
