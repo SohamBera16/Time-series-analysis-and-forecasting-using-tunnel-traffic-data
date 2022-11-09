@@ -2,7 +2,7 @@
 
 ## Steps of the project:
  ### 1. Goal/Objective:
-Tunnel Traffic is a time series describing the number of vehicles traveling through the Baregg Tunnel in Switzerland each day from November 2003 to November 2005. Here, I try to explore various components in the time series like trends and seasonality and predict on out of sample data using Linear Regression model.
+
 
 ### 2. Data Understanding: 
 In order to understand the dataset, describe() function has been used to get information about various descriptive statistical measures like number of records in the dataset, mean value and standard deviation of the target variable, minimum and maximum values, etc.  
