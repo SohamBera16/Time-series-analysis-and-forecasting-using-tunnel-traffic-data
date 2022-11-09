@@ -2,7 +2,7 @@
 
 ## Steps of the project:
  ### 1. Goal/Objective:
-Tunnel Traffic is a time series describing the number of vehicles 
+Tunnel Traffic is a time series describing the number of vehicles traveling through the Baregg Tunnel 
 
 
 ### 2. Data Understanding: 
